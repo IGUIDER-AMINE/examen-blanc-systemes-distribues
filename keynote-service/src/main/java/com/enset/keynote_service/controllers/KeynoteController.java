@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@RestController
-//@RequestMapping("/api/keynotes")
-//@AllArgsConstructor
-//@CrossOrigin(origins = "*")
+@RestController
+@RequestMapping("/api/keynotes")
+@AllArgsConstructor
+@CrossOrigin(origins = "*")
 public class KeynoteController {
     private KeynoteService keynoteService;
 

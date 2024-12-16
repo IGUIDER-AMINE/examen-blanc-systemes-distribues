@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@RestController
-//@RequestMapping("/api/conferences")
-//@AllArgsConstructor
+@RestController
+@RequestMapping("/api/conferences")
+@AllArgsConstructor
 public class ConferenceController {
     private ConferenceService conferenceService;
 
