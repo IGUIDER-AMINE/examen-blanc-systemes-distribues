@@ -19,7 +19,7 @@ public class KeynoteServiceApplication {
 	CommandLineRunner start(KeynoteRepository keynoteRepository, RepositoryRestConfiguration restConfiguration) {
 		restConfiguration.exposeIdsFor(Keynote.class);
 		return args -> {
-			//keynoteRepository.save(new Keynote(null,"Faroa", "Amine", "amine.faroa@example.com", "Developer"));
+			keynoteRepository.save(new Keynote(null,"Faroa", "Amine", "amine.faroa@example.com", "Developer"));
 		};
 	}
 }

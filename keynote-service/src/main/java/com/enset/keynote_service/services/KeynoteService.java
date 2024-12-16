@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-@Transactional
-@AllArgsConstructor
+//@Service
+//@Transactional
+//@AllArgsConstructor
 public class KeynoteService {
     private KeynoteRepository keynoteRepository;
 
