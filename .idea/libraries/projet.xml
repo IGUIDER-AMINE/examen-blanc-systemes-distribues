@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="projet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/conference-service.zip!/" />
+      <root url="jar://$PROJECT_DIR$/keynote-service.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
